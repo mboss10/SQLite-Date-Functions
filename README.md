@@ -17,6 +17,6 @@ Returns the current date. Equivalent to CURRENT_DATE() in BigQuery or Postgres
 ```
 SELECT DATE() as today
 ```
-#### Results
+##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/DATE().png" width="400">
 
