@@ -29,3 +29,13 @@ SELECT TIME()
 ```
 ##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/TIME().png" width="400">
+
+### JULIANDAY(Arrival date) - JULIANDAY(Departure date)
+
+Returns the number of days between 2 dates. Equivalent to DATE_DIFF() in BigQuery.
+
+```
+SELECT JULIANDAY('2024-01-30') - JULIANDAY('2024-01-15') as days
+```
+##### Results
+<img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/JULIANDAY().png" width="400">
