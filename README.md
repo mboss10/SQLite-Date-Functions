@@ -32,6 +32,8 @@ SELECT TIME()
 ##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/TIME().png" width="400">
 
+---
+
 ### JULIANDAY(Arrival date) - JULIANDAY(Departure date)
 
 Returns the number of days between 2 dates. Equivalent to DATE_DIFF() in BigQuery.
@@ -41,3 +43,15 @@ SELECT JULIANDAY('2024-01-30') - JULIANDAY('2024-01-15') as days
 ```
 ##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/JULIANDAY().png" width="400">
+
+---
+
+### DATE(timestring, modifier)
+
+Used with +X days or -X days modifiers = Add or remove a certain number of days to a date. Equivalent of DATE_ADD() or DATE_SUB() in BigQuery.
+
+```
+SELECT date('now','+3 day') as "in 3 days"
+```
+##### Results
+<img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/in%203%20days.png" width="400">
