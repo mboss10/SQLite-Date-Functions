@@ -12,7 +12,7 @@ In this article, I am not using a specific set of data, but calling date functio
 
 ### DATE()
 
-Returns the current date. Equivalent to CURRENT_DATE() in BigQuery or Postgres
+Returns the current date. Equivalent to CURRENT_DATE() in BigQuery or Postgres.
 
 ```
 SELECT DATE() as today
@@ -20,3 +20,12 @@ SELECT DATE() as today
 ##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/DATE().png" width="400">
 
+### TIME()
+
+Returns the current time equivalent to NOW() in Postgres. 
+
+```
+SELECT TIME()
+```
+##### Results
+<img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/TIME().png" width="400">
