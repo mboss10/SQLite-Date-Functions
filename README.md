@@ -19,7 +19,9 @@ SELECT DATE() as today
 ```
 ##### Results
 <img src="https://github.com/mboss10/SQLite-Date-Functions/blob/main/DATE().png" width="400">
+
 ---
+
 ### TIME()
 
 Returns the current time equivalent to NOW() in Postgres. 
