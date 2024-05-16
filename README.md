@@ -87,4 +87,4 @@ SELECT date('now','+2 month','start of month','+9 day') as "10th day in 2 months
 
 ## References
 
-The complete SQL script file is available here: (SQLite Date Functions)["https://github.com/mboss10/SQLite-Date-Functions/blob/main/SQLite%20Date%20Functions.sql"]
+The complete SQL script file is available here: [SQLite Date Functions](https://github.com/mboss10/SQLite-Date-Functions/blob/main/SQLite%20Date%20Functions.sql)
